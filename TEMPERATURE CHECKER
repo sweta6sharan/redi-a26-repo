@@ -1,0 +1,8 @@
+temperatures = [12, 25, 31, 18, 7, 28]
+for temperature in temperatures:
+    if temperature < 15:
+        print(temperature,"Cold")
+    elif temperature <= 25:
+        print(temperature,"Nice")
+    else:
+        print(temperature,"Hot")
