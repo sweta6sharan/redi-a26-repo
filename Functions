@@ -1,0 +1,18 @@
+def get_name():
+    name = input("Enter your name: ")
+    return name
+
+def get_home():
+    home = input("where are you from: ")
+    return home
+
+
+
+def greet(name: str,/, home: str="the moon"):
+    print(f"Hello, {name}! I've never been to {home}")
+
+username = get_name()
+userhome = get_home()
+greet(username, home=userhome)
+    
+                 
