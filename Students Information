@@ -1,0 +1,12 @@
+grades = {
+    "Anna": 85,
+    "Tom": 42,
+    "Sarah": 91,
+    "Lucas": 55,
+    "Emma": 38
+}
+for student, grade in grades.items():
+    if grade >= 50:
+        print(student, "Pass")
+    else:
+        print(student, "Fail")
