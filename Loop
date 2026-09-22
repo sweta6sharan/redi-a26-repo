@@ -1,0 +1,4 @@
+students = ["Anna", "Tom", "Sarah", "Lucas"]
+
+for student in students:
+    print("Hello", student)
