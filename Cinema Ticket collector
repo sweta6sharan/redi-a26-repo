@@ -10,5 +10,3 @@ def calculate_ticket_price(age,number_of_tickets,student=False):
     if student and age >= 18:
         total_price *= 0.8  # Apply a 10% discount for students
     return total_price
-print(calculate_ticket_price(10, 2))  # Output: 12
-print(calculate_ticket_price(15, 3))  # Output: 24

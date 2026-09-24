@@ -1,0 +1,6 @@
+def analyze_grades(*grades):
+    average = sum(grades) / len(grades)
+    highest=max(grades)
+    lowest=min(grades)
+    return f"Average: {average}, Highest: {highest}, Lowest: {lowest}"
+print(analyze_grades(85, 42, 91, 55, 78))
